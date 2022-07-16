@@ -29,10 +29,12 @@ class Movies {
         this.rating = rating;
     }
     getMoviesDetailes(){
-        return fetch("popcorn-api/src/models/Movie.js")
+        return fetch("https://api.disneyapi.dev/characters")
         .then(res=>res.json())
         .then(result=>console.log(result))
 
     }
     
+    
 }
+Movies;
