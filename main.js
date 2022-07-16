@@ -31,10 +31,11 @@ class Movies {
     getMoviesDetailes(){
         return fetch("https://api.disneyapi.dev/characters")
         .then(res=>res.json())
-        .then(result=>console.log(result))
+        .then(result=>{console.log(result)})
 
     }
     
     
 }
-Movies;
+const myMovie = new Movies(1999,"gfgfgfgfgg","title",9)
+myMovie.getMoviesDetailes()
