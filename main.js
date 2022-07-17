@@ -22,10 +22,10 @@
 // console.log(Villa);
 
 class Movies {
-    constructor(year , synopsis ,title,rating ){
+    constructor( year, synopsis ,title,rating ){
         this.year = year;
-        this.synopsis =synopsis;
-        this.title =title;
+        this.synopsis = synopsis;
+        this.title = title;
         this.rating = rating;
     }
     getMoviesDetailes(){
